@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-assignment1
-=======
-assignment4-buildroot
->>>>>>> buildroot-assignments-base/master
+assignment7-buildroot
