@@ -18,10 +18,10 @@ jobs:
             #with:
                 #ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
           - name: Run full test
-            env:
-              GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
+            #env:
+              #GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
             run: ./full-test.sh
-          - name: Cleanup
-            if: always()
-            run: |
-              ssh-add -D
+          #- name: Cleanup
+            #if: always()
+            #run: |
+              #ssh-add -D
